@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>The Book Nook</title>
+<style>
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+h1{
+  padding-left: 26px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 1em;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 2em;
+}
+p{
+  padding-bottom: 15px;
+}
+.container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .book {
+            text-align: center;
+            width: 200px;
+        }
+
+        .book img {
+            width: 100%;
+            height: auto;
+        }
+
+        .book p {
+            margin-bottom: 0.5em;
+        }
+
+
+footer {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+</style>
+</head>
+<body>
+<header>
+  
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#">Catalog</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+<h1>Welcome to The Book Nook</h1>
+<main>
+  <p>Your cozy corner for all things books. Discover your next great read today!</p>
+
+  <h2>Featured Books</h2>
+  <div class="container">
+    <div class="book">
+      <img src="https://i.pinimg.com/564x/e6/f4/99/e6f499bac50e82a3f7358d646af8a2c3.jpg" alt="Book 1">
+      <h3>A Brief History of Humankind</h3>
+      <p>Yuval Noah Harari</p>
+    </div>
+
+    <div class="book">
+      <img src="https://i.pinimg.com/564x/9b/b2/79/9bb279c1c4da0702058451303595b333.jpg" alt="Book 2">
+      <h3>Thinking, Fast and Slow</h3>
+      <p>Daniel Kahneman</p>
+    </div>
+
+    <div class="book">
+      <img src="https://i.pinimg.com/564x/ab/e5/1a/abe51a60436dbb732aa131dc4b49c35b.jpg" alt="Book 3">
+      <h3>Man's Search for Meaning</h3>
+      <p>Viktor E. Frankl</p>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <p>Follow us on:<br> <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">Instagram</a></p>
+</footer>
+
+</body>
+</html>

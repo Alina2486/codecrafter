@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Catalog</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        main {
+            padding: 2em;
+        }
+
+        h1 {
+            text-align: left;
+            margin-bottom: 2em;
+        }
+
+        .book-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .book {
+            text-align: center;
+            width: 200px;
+        }
+
+        .book img {
+            width: 100%;
+            height: auto;
+        }
+
+        .book p {
+            margin-bottom: 0.5em;
+        }
+
+        .book a {
+            color: #663399; /* Purple color for links */
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="catalog.html">Catalog</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+
+    <main>
+        <h1>Book Catalog</h1>
+        <div class="book-container">
+            <div class="book">
+                <img src="https://i.pinimg.com/564x/e6/f4/99/e6f499bac50e82a3f7358d646af8a2c3.jpg" alt="Book 1">
+                <h2>A Brief History of Humankind</h2>
+                <p>Yuval Noah Harari</p>
+                <a href="https://www.ynharari.com/book/sapiens-2/">More Details</a>
+            </div>
+            <div class="book">
+                <img src="https://i.pinimg.com/564x/9b/b2/79/9bb279c1c4da0702058451303595b333.jpg" alt="Book 2">
+                <h2>Thinking, Fast and Slow</h2>
+                <p>Daniel Kahneman</p>
+                <a href="https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow">More Details</a>
+            </div>
+            <div class="book">
+                <img src="https://i.pinimg.com/564x/ab/e5/1a/abe51a60436dbb732aa131dc4b49c35b.jpg" alt="Book 3">
+                <h2>Man's Search for Meaning</h2>
+                <p>Viktor E. Frankl</p>
+                <a href="https://en.wikipedia.org/wiki/Man%27s_Search_for_Meaning">More Details</a>
+            </div>
+            <div class="book">
+                <img src="https://i.pinimg.com/564x/34/b3/34/34b3342be56f8f3a721d0b74f4d6fffa.jpg" alt="Book 4">
+                <h2> On the Origin of Species </h2>
+                <p>Charles Darwin</p>
+                <a href="https://en.wikipedia.org/wiki/On_the_Origin_of_Species">More Details</a>
+            </div>
+            <div class="book">
+                <img src="https://i.pinimg.com/236x/c5/2d/f1/c52df122f13646aadb022335ac9a57dd.jpg" alt="Book 4">
+                <h2>A Brief History of Time</h2>
+                <p> Stephen Hawking </p>
+                <a href="https://en.wikipedia.org/wiki/A_Brief_History_of_Time">More Details</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Follow us on:<br> <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">Instagram</a></p>
+    </footer>
+</body>
+</html>
